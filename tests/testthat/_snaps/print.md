@@ -1,7 +1,7 @@
-# print.my_class
+# print
 
     Code
-      m
+      table(mtcars$mpg)
     Output
       
       10.4 13.3 14.3 14.7   15 15.2 15.5 15.8 16.4 17.3 17.8 18.1 18.7 19.2 19.7   21 
