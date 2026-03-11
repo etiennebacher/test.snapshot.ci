@@ -5,10 +5,3 @@
     Output
       hi
 
----
-
-    Code
-      describe_posterior(m, effects = "all", component = "all", verbose = FALSE)
-    Output
-      hi
-
