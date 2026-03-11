@@ -1,0 +1,26 @@
+Version: 1.0
+ProjectId: e3e3f8bd-9307-422e-94ac-03ac7fc7ad5c
+
+RestoreWorkspace: No
+SaveWorkspace: No
+AlwaysSaveHistory: No
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+StripTrailingWhitespace: Yes
+
+BuildType: Package
+PackageUseDevtools: Yes
+PackageInstallArgs: --with-keep.source
+PackageBuildArgs: --compact-vignettes=both
+PackageCheckArgs: --as-cran --run-donttest
+PackageRoxygenize: rd,collate,namespace
+
+QuitChildProcessesOnExit: Yes
+DisableExecuteRprofile: Yes
