@@ -197,8 +197,6 @@ Statistical Science. 11(3): 189–212. 10.1214/ss/1032280214
 Other ci:
 \code{\link{ci}()},
 \code{\link{eti}()},
-\code{\link{hdi}()},
-\code{\link{si}()},
-\code{\link{spi}()}
+\code{\link{hdi}()}
 }
 \concept{ci}

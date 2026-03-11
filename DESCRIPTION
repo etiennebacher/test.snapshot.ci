@@ -118,8 +118,6 @@ Suggests:
 License: GPL-3
 URL: https://easystats.github.io/bayestestR/
 BugReports: https://github.com/easystats/bayestestR/issues
-VignetteBuilder:
-    knitr
 Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.3.3.9000

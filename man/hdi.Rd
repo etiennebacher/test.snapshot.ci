@@ -230,9 +230,7 @@ Other interval functions, such as \code{\link[=hdi]{hdi()}}, \code{\link[=eti]{e
 Other ci:
 \code{\link{bci}()},
 \code{\link{ci}()},
-\code{\link{eti}()},
-\code{\link{si}()},
-\code{\link{spi}()}
+\code{\link{eti}()}
 }
 \author{
 Credits go to \strong{ggdistribute} and \href{https://github.com/mikemeredith/HDInterval}{\strong{HDInterval}}.

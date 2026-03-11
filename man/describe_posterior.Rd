@@ -112,8 +112,6 @@ running \code{\link[=reshape_iterations]{reshape_iterations()}}.}
 Bayes factors / SI. Used if the input is a posterior, otherwise (in the
 case of models) ignored.}
 
-\item{BF}{The amount of support required to be included in the support interval.}
-
 \item{verbose}{Toggle off warnings.}
 
 \item{rvar_col}{A single character - the name of an \code{rvar} column in the data

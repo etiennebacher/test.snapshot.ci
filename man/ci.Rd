@@ -39,8 +39,6 @@ to be estimated. Default to \code{0.95} (\verb{95\%}).}
 
 \item{verbose}{Toggle off warnings.}
 
-\item{BF}{The amount of support required to be included in the support interval.}
-
 \item{rvar_col}{A single character - the name of an \code{rvar} column in the data
 frame to be processed. See example in \code{\link[=p_direction]{p_direction()}}.}
 
@@ -180,8 +178,6 @@ intervals"? BMJ 2019;l5381. 10.1136/bmj.l5381
 Other ci:
 \code{\link{bci}()},
 \code{\link{eti}()},
-\code{\link{hdi}()},
-\code{\link{si}()},
-\code{\link{spi}()}
+\code{\link{hdi}()}
 }
 \concept{ci}
