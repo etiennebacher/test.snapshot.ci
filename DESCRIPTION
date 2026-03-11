@@ -1,5 +1,5 @@
 Type: Package
-Package: bayestestR
+Package: test.snapshot.ci
 Title: Understand and Describe Bayesian Models and Posterior Distributions
 Version: 0.17.0.2
 Authors@R:
@@ -13,11 +13,8 @@ Description: Hello there.
 Imports:
     testthat
 License: GPL-3
-URL: https://easystats.github.io/bayestestR/
-BugReports: https://github.com/easystats/bayestestR/issues
 Encoding: UTF-8
 Language: en-US
-RoxygenNote: 7.3.3.9000
-Roxygen: list(markdown = TRUE)
 Config/testthat/edition: 3
 Config/testthat/parallel: true
+RoxygenNote: 7.3.3.9000

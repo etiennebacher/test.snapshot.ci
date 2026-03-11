@@ -1,4 +1,4 @@
 library(testthat)
-library(bayestestR)
+library(test.snapshot.ci)
 
-test_check("bayestestR")
+test_check("test.snapshot.ci")
