@@ -1,4 +1,4 @@
-#' @rdname display.describe_posterior
+#' @title hello
 #' @export
 print.describe_posterior <- function(x,
                                      digits = 2,
@@ -7,6 +7,7 @@ print.describe_posterior <- function(x,
   "hi"
 }
 
+#' @title hello
 #' @export 
 describe_posterior <- function(x, ...) {
   class(x) <- c("describe_posterior", class(x))
