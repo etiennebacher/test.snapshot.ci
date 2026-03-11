@@ -11,7 +11,7 @@ Authors@R:
 Maintainer: Dominique Makowski <officialeasystats@gmail.com>
 Description: Hello
 Imports:
-    testthat (== 3.2.3)
+    testthat (<= 3.2.3)
 License: GPL-3
 URL: https://easystats.github.io/bayestestR/
 BugReports: https://github.com/easystats/bayestestR/issues
