@@ -22,7 +22,7 @@ jobs:
           # it will be too slow otherwise
           #- {os: macOS-latest, r: 'devel'}
           - { os: macOS-latest, r: "release" }
-          - { os: windows-latest, r: "devel" }
+          - { os: ubuntu-latest, r: "release" }
           - { os: windows-latest, r: "release" }
 
     env:
@@ -42,9 +42,6 @@ jobs:
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          extra-packages: |
-            any::rcmdcheck
 
       - uses: r-lib/actions/check-r-package@v2
         with:
