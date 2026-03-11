@@ -118,6 +118,7 @@ jobs:
           upload-snapshots: true
           upload-results: true
           error-on: '"warning"'
+          args: 'c("--no-manual")'
         env:
           _R_CHECK_CRAN_INCOMING_REMOTE_: false
           _R_CHECK_CRAN_INCOMING_: false
