@@ -13,7 +13,11 @@ Description: Hello
 Depends:
     R (>= 3.6)
 Imports:
-    insight (>= 1.4.6)
+    insight (>= 1.4.6),
+    httr2,
+    testthat
+Remotes:
+    r-lib/testthat@3.3.2
 License: GPL-3
 URL: https://easystats.github.io/bayestestR/
 BugReports: https://github.com/easystats/bayestestR/issues
