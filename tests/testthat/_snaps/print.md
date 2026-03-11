@@ -1,4 +1,4 @@
-# print.describe_posterior
+# print.my_class
 
     Code
       m
