@@ -10,11 +10,7 @@ Authors@R:
              comment = c(ORCID = "0000-0001-5375-9967")))
 Maintainer: Dominique Makowski <officialeasystats@gmail.com>
 Description: Hello
-Depends:
-    R (>= 3.6)
 Imports:
-    insight (>= 1.4.6),
-    httr2,
     testthat (== 3.3.2)
 License: GPL-3
 URL: https://easystats.github.io/bayestestR/

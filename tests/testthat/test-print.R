@@ -1,5 +1,5 @@
-test_that("print.describe_posterior", {
+test_that("print.my_class", {
   m <- table(mtcars$mpg)
-  class(m) <- c("describe_posterior", class(m))
+  class(m) <- c("my_class", class(m))
   expect_snapshot(m, variant = "windows")
 })
