@@ -18,9 +18,6 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          # CRAN doesn't provide binaries for macOS on R-devel, so skip because
-          # it will be too slow otherwise
-          #- {os: macOS-latest, r: 'devel'}
           - { os: macOS-latest, r: "release" }
           - { os: ubuntu-latest, r: "release" }
           - { os: windows-latest, r: "release" }
@@ -48,8 +45,8 @@ jobs:
 
       - uses: r-lib/actions/check-r-package@v2
         with:
-          upload-snapshots: true
-          upload-results: true
+          # upload-snapshots: true
+          # upload-results: true
           error-on: '"warning"'
           args: 'c("--no-manual")'
         env:
