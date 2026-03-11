@@ -1,10 +1,12 @@
 test_that("print.describe_posterior", {
-  skip_on_cran()
-  skip_if_not_installed("curl")
-  skip_if_offline()
-  skip_if_not_installed("httr2")
+  # skip_on_cran()
+  # skip_if_not_installed("curl")
+  # skip_if_offline()
+  # skip_if_not_installed("httr2")
 
-  m <- insight::download_model("brms_zi_3")
+  # m <- insight::download_model("brms_zi_3")
+  # saveRDS(m, "foo.rds")
+  m <- readRDS("/home/etienne/Desktop/Git/test.snapshot.ci/foo.rds")
   skip_if(is.null(m))
   expect_snapshot(describe_posterior(m, verbose = FALSE), variant = "windows")
   expect_snapshot(describe_posterior(m, effects = "all", component = "all", verbose = FALSE), variant = "windows")

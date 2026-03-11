@@ -4,12 +4,7 @@ print.describe_posterior <- function(x,
                                      digits = 2,
                                      caption = "Summary of Posterior Distribution",
                                      ...) {
-  .print_default(
-    x = x,
-    digits = digits,
-    caption = caption,
-    ...
-  )
+  "hi"
 }
 
 

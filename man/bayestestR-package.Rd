@@ -2,8 +2,6 @@
 % Please edit documentation in R/bayestestR-package.R
 \docType{package}
 \name{bayestestR-package}
-\alias{bayestestR}
-\alias{bayestestR-package}
 \alias{bayestestR-package}
 \alias{bayestestR}
 \title{bayestestR: Describing Effects and their Uncertainty, Existence and
