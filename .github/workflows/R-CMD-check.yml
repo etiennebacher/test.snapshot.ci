@@ -28,8 +28,8 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         # UNCOMMENT THIS TO USE A VERSION OF TESTTHAT < 3.3.2
-        with:
-          packages: |
-            url::https://cloud.r-project.org/src/contrib/Archive/testthat/testthat_3.2.3.tar.gz
+        # with:
+        #   packages: |
+        #     url::https://cloud.r-project.org/src/contrib/Archive/testthat/testthat_3.2.3.tar.gz
 
       - uses: r-lib/actions/check-r-package@v2
