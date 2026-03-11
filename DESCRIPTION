@@ -9,7 +9,7 @@ Authors@R:
              email = "officialeasystats@gmail.com",
              comment = c(ORCID = "0000-0001-5375-9967")))
 Maintainer: Dominique Makowski <officialeasystats@gmail.com>
-Description: Hello
+Description: Hello there.
 Imports:
     testthat
 License: GPL-3
