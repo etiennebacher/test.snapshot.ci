@@ -41,13 +41,10 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
-            url::https://cloud.r-project.org/src/contrib/Archive/testthat/testthat_3.3.0.tar.gz
+            url::https://cloud.r-project.org/src/contrib/Archive/testthat/testthat_3.3.2.tar.gz
 
       - uses: r-lib/actions/check-r-package@v2
         with:
-          # upload-snapshots: true
-          # upload-results: true
-          error-on: '"warning"'
           args: 'c("--no-manual")'
         env:
           _R_CHECK_CRAN_INCOMING_REMOTE_: false
