@@ -43,8 +43,8 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages: |
-            deps::.
+          packages: 
+            - "url::cloud.r-project.org/src/contrib/Archive/testthat/testthat_3.2.3.tar.gz"
 
       - uses: r-lib/actions/check-r-package@v2
         with:
