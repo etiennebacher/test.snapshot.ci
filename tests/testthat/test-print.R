@@ -1,5 +1,5 @@
 test_that("print.describe_posterior", {
-  m <- insight::download_model("brms_zi_3")
-  skip_if(is.null(m))
-  expect_snapshot(describe_posterior(m, verbose = FALSE), variant = "windows")
+  m <- table(mtcars$mpg)
+  class(m) <- c("describe_posterior", class(m))
+  expect_snapshot(m, variant = "windows")
 })

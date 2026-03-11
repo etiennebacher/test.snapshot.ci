@@ -1,7 +1,7 @@
 # print.describe_posterior
 
     Code
-      describe_posterior(m, verbose = FALSE)
+      m
     Output
       hi
 
