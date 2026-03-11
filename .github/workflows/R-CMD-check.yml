@@ -39,9 +39,10 @@ jobs:
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            url::https://cloud.r-project.org/src/contrib/Archive/testthat/testthat_3.3.2.tar.gz
+        # UNCOMMENT THIS TO USE A VERSION OF TESTTHAT < 3.3.2
+        # with:
+        #   packages: |
+        #     url::https://cloud.r-project.org/src/contrib/Archive/testthat/testthat_3.2.3.tar.gz
 
       - uses: r-lib/actions/check-r-package@v2
         with:
