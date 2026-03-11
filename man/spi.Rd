@@ -140,7 +140,7 @@ spi(model)
 Liu, Y., Gelman, A., & Zheng, T. (2015). Simulation-efficient shortest probability intervals. Statistics and Computing, 25(4), 809–819. https://doi.org/10.1007/s11222-015-9563-8
 }
 \seealso{
-Other ci: 
+Other ci:
 \code{\link{bci}()},
 \code{\link{ci}()},
 \code{\link{eti}()},

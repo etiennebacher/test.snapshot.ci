@@ -3,7 +3,6 @@ test_that("print.describe_posterior", {
   skip_if_not_installed("curl")
   skip_if_offline()
   skip_if_not_installed("httr2")
-  skip_if_not_or_load_if_installed("brms")
 
   m <- insight::download_model("brms_zi_3")
   skip_if(is.null(m))

@@ -227,7 +227,7 @@ examples in R and Stan. Chapman and Hall/CRC.
 Other interval functions, such as \code{\link[=hdi]{hdi()}}, \code{\link[=eti]{eti()}}, \code{\link[=bci]{bci()}},
 \code{\link[=spi]{spi()}}, \code{\link[=si]{si()}}.
 
-Other ci: 
+Other ci:
 \code{\link{bci}()},
 \code{\link{ci}()},
 \code{\link{eti}()},

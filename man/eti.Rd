@@ -215,7 +215,7 @@ eti(bf, ci = c(0.80, 0.89, 0.95))
 \dontshow{\}) # examplesIf}
 }
 \seealso{
-Other ci: 
+Other ci:
 \code{\link{bci}()},
 \code{\link{ci}()},
 \code{\link{hdi}()},
